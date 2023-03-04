@@ -1,8 +1,6 @@
 # AllTube Download
 
-HTML GUI for youtube-dl
-
-![Screenshot](img/screenshot.png "AllTube GUI screenshot")
+HTML GUI for  [yt-dlp](https://github.com/yt-dlp/yt-dlp) ([alltubedownload.net](http://alltubedownload.net/))
 
 ## Setup
 
@@ -47,6 +45,11 @@ composer install
 ### On Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+when deploying, change python to python3
+
+![image](https://user-images.githubusercontent.com/20607107/160301881-e6ecce18-c3bb-4b81-b30d-76974d3179ec.png)
+
 
 ### On Cloudron
 
