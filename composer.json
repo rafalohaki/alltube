@@ -18,7 +18,7 @@
     }
   ],
   "require": {
-    "php": ">=7.3",
+    "php": ">=8.1",
     "ext-intl": "*",
     "ext-json": "*",
     "aura/session": "^2.1",
@@ -37,7 +37,7 @@
     "symfony/translation": "^4.0",
     "symfony/yaml": "^4.0",
     "webfontkit/open-sans": "^1.0",
-    "ytdl-org/youtube-dl": "^2021.12",
+    "yt-dlp/yt-dlp": "^2023.03",
     "zonuexe/http-accept-language": "^0.4.1"
   },
   "require-dev": {
@@ -62,11 +62,11 @@
     {
       "type": "package",
       "package": {
-        "name": "ytdl-org/youtube-dl",
-        "version": "2021.12.17",
+        "name": "yt-dlp/yt-dlp",
+        "version": "2023.03.04",
         "dist": {
           "type": "tar",
-          "url": "https://yt-dl.org/downloads/2021.12.17/youtube-dl-2021.12.17.tar.gz"
+          "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2023.03.04/yt-dlp.tar.gz"
         }
       }
     }
@@ -91,7 +91,7 @@
       "phpro/grumphp": true
     },
     "platform": {
-      "php": "7.3.11"
+      "php": "8.1.16"
     },
     "sort-packages": true
   },
@@ -108,7 +108,7 @@
       "library"
     ],
     "patches": {
-      "ytdl-org/youtube-dl": {
+      "yt-dlp/yt-dlp": {
         "Disable the generic extractor": "patches/youtube-dl-disable-generic.diff"
       }
     }
@@ -124,6 +124,6 @@
       "tsmarty2c.php templates > i18n/template.pot",
       "xgettext --omit-header -kt -j -o i18n/template.pot classes/*.php classes/*/*.php"
     ],
-    "youtube-dl": "vendor/ytdl-org/youtube-dl/youtube_dl/__main__.py"
+    "youtube-dl": "vendor/yt-dlp/yt-dlp/yt-dlp/__main__.py"
   }
 }

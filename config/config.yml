@@ -1,9 +1,9 @@
 ---
 # Path to your youtube-dl binary
-youtubedl: vendor/ytdl-org/youtube-dl/youtube_dl/__main__.py
+youtubedl: vendor/yt-dlp/yt-dlp/yt_dlp/__main__.py
 
 # Path to your python binary
-python: /usr/bin/python
+python: /usr/bin/python3
 
 # An array of parameters to pass to youtube-dl
 params:
@@ -45,7 +45,7 @@ remux: false
 audioBitrate: 128
 
 # App name
-appName: AllTube Download
+appName: MojeTube
 
 # Generic formats supported by youtube-dl
 genericFormats:
