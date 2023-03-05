@@ -4,6 +4,7 @@ RUN apt-get install -y libicu-dev xz-utils git python3 libgmp-dev unzip ffmpeg l
 RUN docker-php-ext-install mbstring
 RUN docker-php-ext-install intl
 RUN docker-php-ext-install gmp
+RUN docker-php-ext-install gettext
 RUN a2enmod rewrite
 RUN curl -sS https://getcomposer.org/installer | php -- --quiet
 COPY resources/php.ini /usr/local/etc/php/
