@@ -42,7 +42,12 @@ git pull
 composer install
 ```
 
-### On Heroku
+## On Docker
+```bash
+docker run -p 8080:80 rafalohaki/alletube
+```
+
+## On Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
