@@ -47,7 +47,7 @@ composer install
 docker run -p 8080:80 rafalohaki/alletube
 
 or
-
+(ONLY FOR ARM64)
 git clone https://github.com/rafalohaki/alltube
 cd alltube
 docker build -t alletube .
