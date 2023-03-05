@@ -20,7 +20,7 @@
   "env": {
     "PYTHON": {
       "description": "Path to python binary",
-      "value": "/app/.heroku/python/bin/python"
+      "value": "/app/.heroku/python/bin/python3"
     },
     "STREAM": {
       "description": "Enable stream mode",
