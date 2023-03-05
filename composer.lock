@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11778e6b9dd039f6bdea3f01292aed0f",
+    "content-hash": "a19c51c3722d6f6585b0cc9d7f0b3769",
     "packages": [
         {
             "name": "aura/session",
@@ -2042,23 +2042,23 @@
         },
         {
             "name": "rinvex/countries",
-            "version": "v9.0.0",
+            "version": "v7.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rinvex/countries.git",
-                "reference": "e432598483983945ccefe131925a0ab9fbb31bdf"
+                "reference": "4696d23976e27d6cedf7e55db3fa24e11924b727"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rinvex/countries/zipball/e432598483983945ccefe131925a0ab9fbb31bdf",
-                "reference": "e432598483983945ccefe131925a0ab9fbb31bdf",
+                "url": "https://api.github.com/repos/rinvex/countries/zipball/4696d23976e27d6cedf7e55db3fa24e11924b727",
+                "reference": "4696d23976e27d6cedf7e55db3fa24e11924b727",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1.0"
+                "php": "^7.4.0 || ^8.0.0"
             },
             "require-dev": {
-                "codedungeon/phpunit-result-printer": "^0.32.0",
+                "codedungeon/phpunit-result-printer": "^0.30.0",
                 "phpunit/phpunit": "^9.5.0"
             },
             "type": "library",
@@ -2121,7 +2121,7 @@
                 "issues": "https://github.com/rinvex/countries/issues",
                 "source": "https://github.com/rinvex/countries"
             },
-            "time": "2023-01-08T23:56:07+00:00"
+            "time": "2020-12-25T01:36:24+00:00"
         },
         {
             "name": "rudloff/alltube-library",
