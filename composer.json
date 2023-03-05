@@ -18,7 +18,7 @@
     }
   ],
   "require": {
-    "php": ">=7.4",
+    "php": ">=7.3",
     "ext-intl": "*",
     "ext-json": "*",
     "aura/session": "^2.1",
@@ -92,7 +92,7 @@
       "php-http/discovery": true
     },
     "platform": {
-      "php": "7.4.33"
+      "php": "7.3.33"
     },
     "sort-packages": true
   },
