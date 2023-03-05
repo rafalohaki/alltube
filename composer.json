@@ -18,7 +18,7 @@
     }
   ],
   "require": {
-    "php": ">=8.2",
+    "php": ">=8.1",
     "ext-intl": "*",
     "ext-json": "*",
     "aura/session": "^2.1",
@@ -92,7 +92,7 @@
       "php-http/discovery": true
     },
     "platform": {
-      "php": "8.2.2"
+      "php": "8.1.16"
     },
     "sort-packages": true
   },
@@ -109,7 +109,7 @@
       "library"
     ],
     "patches": {
-      "yt-dlp/yt-dlp": {
+      "ytdl-org/youtube-dl": {
         "Disable the generic extractor": "patches/youtube-dl-disable-generic.diff"
       }
     }
