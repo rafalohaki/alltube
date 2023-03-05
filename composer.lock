@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "52812cc64d34d6ab8c2eeb4b568771d0",
+    "content-hash": "3b1c90ce858fdfce0f59ec09b8c5cf2f",
     "packages": [
         {
             "name": "aura/session",
@@ -9493,13 +9493,13 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.4",
+        "php": ">=8.2",
         "ext-intl": "*",
         "ext-json": "*"
     },
     "platform-dev": [],
     "platform-overrides": {
-        "php": "7.4.33"
+        "php": "8.2.3"
     },
     "plugin-api-version": "2.3.0"
 }
