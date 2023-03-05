@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b2c4ba69cf4fa7b892a24447fe8dc69",
+    "content-hash": "52812cc64d34d6ab8c2eeb4b568771d0",
     "packages": [
         {
             "name": "aura/session",
@@ -882,21 +882,21 @@
         },
         {
             "name": "jawira/case-converter",
-            "version": "v3.4.6",
+            "version": "v3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jawira/case-converter.git",
-                "reference": "2f284c0760ee8085ab463f57275cf1f887fb78ae"
+                "reference": "2be05b98dcb743bef60ab6f849145bd3434ed003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jawira/case-converter/zipball/2f284c0760ee8085ab463f57275cf1f887fb78ae",
-                "reference": "2f284c0760ee8085ab463f57275cf1f887fb78ae",
+                "url": "https://api.github.com/repos/jawira/case-converter/zipball/2be05b98dcb743bef60ab6f849145bd3434ed003",
+                "reference": "2be05b98dcb743bef60ab6f849145bd3434ed003",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": "^7.1 || ^8.0"
+                "php": ">=7.4"
             },
             "require-dev": {
                 "behat/behat": "^3.0",
@@ -943,9 +943,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jawira/case-converter/issues",
-                "source": "https://github.com/jawira/case-converter/tree/v3.4.6"
+                "source": "https://github.com/jawira/case-converter/tree/v3.5.1"
             },
-            "time": "2021-11-21T19:52:51+00:00"
+            "time": "2022-08-14T11:40:18+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -1740,20 +1740,20 @@
         },
         {
             "name": "psr/container",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
+                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/8622567409010282b7aeebe4bb841fe98b58dcaf",
-                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/513e0666f7216c7459170d56df27dfcefe1689ea",
+                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.0"
+                "php": ">=7.4.0"
             },
             "type": "library",
             "autoload": {
@@ -1782,9 +1782,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container/tree/1.1.1"
+                "source": "https://github.com/php-fig/container/tree/1.1.2"
             },
-            "time": "2021-03-05T17:36:06+00:00"
+            "time": "2021-11-05T16:50:12+00:00"
         },
         {
             "name": "psr/http-client",
@@ -4127,29 +4127,30 @@
         },
         {
             "name": "amphp/parser",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/parser.git",
-                "reference": "f83e68f03d5b8e8e0365b8792985a7f341c57ae1"
+                "reference": "ff1de4144726c5dad5fab97f66692ebe8de3e151"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amphp/parser/zipball/f83e68f03d5b8e8e0365b8792985a7f341c57ae1",
-                "reference": "f83e68f03d5b8e8e0365b8792985a7f341c57ae1",
+                "url": "https://api.github.com/repos/amphp/parser/zipball/ff1de4144726c5dad5fab97f66692ebe8de3e151",
+                "reference": "ff1de4144726c5dad5fab97f66692ebe8de3e151",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7"
+                "php": ">=7.4"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.3",
-                "phpunit/phpunit": "^6"
+                "amphp/php-cs-fixer-config": "^2",
+                "phpunit/phpunit": "^9",
+                "psalm/phar": "^5.4"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Amp\\Parser\\": "lib"
+                    "Amp\\Parser\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4158,12 +4159,12 @@
             ],
             "authors": [
                 {
-                    "name": "Niklas Keller",
-                    "email": "me@kelunik.com"
-                },
-                {
                     "name": "Aaron Piotrowski",
                     "email": "aaron@trowski.com"
+                },
+                {
+                    "name": "Niklas Keller",
+                    "email": "me@kelunik.com"
                 }
             ],
             "description": "A generator parser to make streaming parsers simple.",
@@ -4176,9 +4177,15 @@
             ],
             "support": {
                 "issues": "https://github.com/amphp/parser/issues",
-                "source": "https://github.com/amphp/parser/tree/is-valid"
+                "source": "https://github.com/amphp/parser/tree/v1.1.0"
             },
-            "time": "2017-06-06T05:29:10+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/amphp",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-12-30T18:08:47+00:00"
         },
         {
             "name": "amphp/process",
@@ -5058,35 +5065,35 @@
         },
         {
             "name": "ergebnis/composer-normalize",
-            "version": "2.20.0",
+            "version": "2.28.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/composer-normalize.git",
-                "reference": "c172e90a0afa77f2665031dfde3fccb9415bddd7"
+                "reference": "ec75a2bf751f6fec165e9ea0262655b8ca397e5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/c172e90a0afa77f2665031dfde3fccb9415bddd7",
-                "reference": "c172e90a0afa77f2665031dfde3fccb9415bddd7",
+                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/ec75a2bf751f6fec165e9ea0262655b8ca397e5c",
+                "reference": "ec75a2bf751f6fec165e9ea0262655b8ca397e5c",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.0.0",
-                "ergebnis/json-normalizer": "^1.0.3",
-                "ergebnis/json-printer": "^3.1.1",
-                "justinrainbow/json-schema": "^5.2.11",
+                "ergebnis/json-normalizer": "~2.1.0",
+                "ergebnis/json-printer": "^3.2.0",
+                "justinrainbow/json-schema": "^5.2.12",
                 "localheinz/diff": "^1.1.1",
-                "php": "^7.3 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "composer/composer": "^2.2.1",
-                "ergebnis/license": "^1.1.0",
-                "ergebnis/php-cs-fixer-config": "^3.4.0",
-                "fakerphp/faker": "^1.17.0",
-                "phpunit/phpunit": "^9.5.11",
-                "psalm/plugin-phpunit": "~0.16.1",
-                "symfony/filesystem": "^5.4.0",
-                "vimeo/psalm": "^4.16.1"
+                "composer/composer": "^2.3.9",
+                "ergebnis/license": "^1.2.0",
+                "ergebnis/php-cs-fixer-config": "^4.4.0",
+                "fakerphp/faker": "^1.19.0",
+                "phpunit/phpunit": "^9.5.21",
+                "psalm/plugin-phpunit": "~0.17.0",
+                "symfony/filesystem": "^5.4.9",
+                "vimeo/psalm": "^4.24.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -5123,49 +5130,38 @@
                 "issues": "https://github.com/ergebnis/composer-normalize/issues",
                 "source": "https://github.com/ergebnis/composer-normalize"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/localheinz",
-                    "type": "github"
-                }
-            ],
-            "time": "2021-12-28T11:05:22+00:00"
+            "time": "2022-07-05T16:09:10+00:00"
         },
         {
             "name": "ergebnis/json-normalizer",
-            "version": "1.0.3",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/json-normalizer.git",
-                "reference": "4a7f064ce34d5a2e382564565cdd433dbc5b9494"
+                "reference": "2039eb11131a243b9204bf51219baa08935e6b1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/json-normalizer/zipball/4a7f064ce34d5a2e382564565cdd433dbc5b9494",
-                "reference": "4a7f064ce34d5a2e382564565cdd433dbc5b9494",
+                "url": "https://api.github.com/repos/ergebnis/json-normalizer/zipball/2039eb11131a243b9204bf51219baa08935e6b1d",
+                "reference": "2039eb11131a243b9204bf51219baa08935e6b1d",
                 "shasum": ""
             },
             "require": {
-                "ergebnis/json-printer": "^3.1.1",
+                "ergebnis/json-printer": "^3.2.0",
+                "ergebnis/json-schema-validator": "^2.0.0",
                 "ext-json": "*",
-                "justinrainbow/json-schema": "^5.2.10",
-                "php": "^7.2 || ^8.0"
+                "justinrainbow/json-schema": "^5.2.11",
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "ergebnis/license": "^1.1.0",
-                "ergebnis/php-cs-fixer-config": "^2.10.0",
-                "ergebnis/phpstan-rules": "~0.15.3",
-                "ergebnis/test-util": "^1.4.0",
-                "infection/infection": "~0.15.3",
-                "jangregor/phpstan-prophecy": "~0.8.1",
-                "phpstan/extension-installer": "^1.1.0",
-                "phpstan/phpstan": "~0.12.80",
-                "phpstan/phpstan-deprecation-rules": "~0.12.6",
-                "phpstan/phpstan-phpunit": "~0.12.17",
-                "phpstan/phpstan-strict-rules": "~0.12.9",
-                "phpunit/phpunit": "^8.5.14",
-                "psalm/plugin-phpunit": "~0.12.2",
-                "vimeo/psalm": "^3.18"
+                "ergebnis/data-provider": "^1.0.0",
+                "ergebnis/license": "^1.2.0",
+                "ergebnis/php-cs-fixer-config": "^3.4.0",
+                "fakerphp/faker": "^1.17.0",
+                "infection/infection": "~0.25.5",
+                "phpunit/phpunit": "^9.5.11",
+                "psalm/plugin-phpunit": "~0.16.1",
+                "vimeo/psalm": "^4.17.0"
             },
             "type": "library",
             "autoload": {
@@ -5199,41 +5195,35 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-06T13:33:57+00:00"
+            "time": "2022-01-04T11:19:55+00:00"
         },
         {
             "name": "ergebnis/json-printer",
-            "version": "3.1.1",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/json-printer.git",
-                "reference": "e4190dadd9937a77d8afcaf2b6c42a528ab367d6"
+                "reference": "651cab2b7604a6b338d0d16749f5ea0851a68005"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/json-printer/zipball/e4190dadd9937a77d8afcaf2b6c42a528ab367d6",
-                "reference": "e4190dadd9937a77d8afcaf2b6c42a528ab367d6",
+                "url": "https://api.github.com/repos/ergebnis/json-printer/zipball/651cab2b7604a6b338d0d16749f5ea0851a68005",
+                "reference": "651cab2b7604a6b338d0d16749f5ea0851a68005",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": "^7.2 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "ergebnis/license": "^1.0.0",
-                "ergebnis/php-cs-fixer-config": "^2.2.1",
-                "ergebnis/phpstan-rules": "~0.15.2",
-                "ergebnis/test-util": "^1.1.0",
-                "infection/infection": "~0.15.3",
-                "phpstan/extension-installer": "^1.0.4",
-                "phpstan/phpstan": "~0.12.40",
-                "phpstan/phpstan-deprecation-rules": "~0.12.5",
-                "phpstan/phpstan-phpunit": "~0.12.16",
-                "phpstan/phpstan-strict-rules": "~0.12.4",
-                "phpunit/phpunit": "^8.5.8",
-                "psalm/plugin-phpunit": "~0.11.0",
-                "vimeo/psalm": "^3.14.2"
+                "ergebnis/license": "^1.1.0",
+                "ergebnis/php-cs-fixer-config": "^3.4.0",
+                "fakerphp/faker": "^1.17.0",
+                "infection/infection": "~0.25.5",
+                "phpunit/phpunit": "^9.5.11",
+                "psalm/plugin-phpunit": "~0.16.1",
+                "vimeo/psalm": "^4.16.1"
             },
             "type": "library",
             "autoload": {
@@ -5268,7 +5258,78 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-08-30T12:17:03+00:00"
+            "time": "2021-12-27T12:39:13+00:00"
+        },
+        {
+            "name": "ergebnis/json-schema-validator",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ergebnis/json-schema-validator.git",
+                "reference": "dacd8a47c1cc2c426ec71e952da3609ebe901fac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ergebnis/json-schema-validator/zipball/dacd8a47c1cc2c426ec71e952da3609ebe901fac",
+                "reference": "dacd8a47c1cc2c426ec71e952da3609ebe901fac",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "justinrainbow/json-schema": "^5.2.10",
+                "php": "^7.4 || ^8.0"
+            },
+            "require-dev": {
+                "ergebnis/composer-normalize": "^2.18.0",
+                "ergebnis/data-provider": "^1.0.0",
+                "ergebnis/license": "^1.1.0",
+                "ergebnis/php-cs-fixer-config": "~3.4.0",
+                "fakerphp/faker": "^1.17.0",
+                "infection/infection": "~0.25.3",
+                "phpunit/phpunit": "~9.5.10",
+                "psalm/plugin-phpunit": "~0.16.1",
+                "vimeo/psalm": "^4.15.0"
+            },
+            "type": "library",
+            "extra": {
+                "composer-normalize": {
+                    "indent-size": 2,
+                    "indent-style": "space"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ergebnis\\Json\\SchemaValidator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Möller",
+                    "email": "am@localheinz.com"
+                }
+            ],
+            "description": "Provides a JSON schema validator, building on top of justinrainbow/json-schema.",
+            "homepage": "https://github.com/ergebnis/json-schema-validator",
+            "keywords": [
+                "json",
+                "schema",
+                "validator"
+            ],
+            "support": {
+                "issues": "https://github.com/ergebnis/json-schema-validator/issues",
+                "source": "https://github.com/ergebnis/json-schema-validator"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/localheinz",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-12-13T16:54:56+00:00"
         },
         {
             "name": "gitonomy/gitlib",
@@ -9310,13 +9371,13 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.3",
+        "php": ">=7.4",
         "ext-intl": "*",
         "ext-json": "*"
     },
     "platform-dev": [],
     "platform-overrides": {
-        "php": "7.3.33"
+        "php": "7.4.33"
     },
     "plugin-api-version": "2.3.0"
 }
