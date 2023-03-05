@@ -44,10 +44,10 @@ composer install
 
 ## On Docker
 ```bash
+(REMOTE ONE IS ONLY FOR ARM64!)
 docker run -p 8080:80 rafalohaki/alletube
 
 or
-(ONLY FOR ARM64)
 git clone https://github.com/rafalohaki/alltube
 cd alltube
 docker build -t alletube .
