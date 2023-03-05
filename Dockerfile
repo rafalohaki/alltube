@@ -11,6 +11,8 @@ COPY resources/php.ini /usr/local/etc/php/
 COPY . /var/www/html/
 RUN php composer.phar check-platform-reqs --no-dev
 RUN php composer.phar install --prefer-dist --no-progress --no-dev --optimize-autoloader
+RUN php composer.phar update
 RUN mkdir /var/www/html/templates_c/
-RUN chmod 775 -R /var/www/html/templates_c/
+RUN chmod 777 -R /var/www/html/templates_c/
+RUN chmod 777 -R templates_c/
 ENV CONVERT=1
