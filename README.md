@@ -45,6 +45,11 @@ composer install
 ## On Docker
 ```bash
 docker run -p 8080:80 rafalohaki/alletube
+
+or
+
+docker build -t alletube .
+docker run -p 8080:80 alletube
 ```
 
 ## On Heroku
