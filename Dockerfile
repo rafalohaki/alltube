@@ -1,6 +1,6 @@
 FROM php:8.2.3-apache
 RUN apt-get update
-RUN apt-get install -y libicu-dev xz-utils git python3 libgmp-dev unzip ffmpeg
+RUN apt-get install -y libicu-dev xz-utils git python3 libgmp-dev unzip ffmpeg libonig-dev
 RUN docker-php-ext-install mbstring
 RUN docker-php-ext-install intl
 RUN docker-php-ext-install gmp
