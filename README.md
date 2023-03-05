@@ -48,6 +48,8 @@ docker run -p 8080:80 rafalohaki/alletube
 
 or
 
+git clone https://github.com/rafalohaki/alltube
+cd alltube
 docker build -t alletube .
 docker run -p 8080:80 alletube
 ```
