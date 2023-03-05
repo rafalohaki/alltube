@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a19c51c3722d6f6585b0cc9d7f0b3769",
+    "content-hash": "7f3e06b8c61fd1a4ac8162bbdb27d733",
     "packages": [
         {
             "name": "aura/session",
@@ -2042,24 +2042,25 @@
         },
         {
             "name": "rinvex/countries",
-            "version": "v7.3.2",
+            "version": "v6.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rinvex/countries.git",
-                "reference": "4696d23976e27d6cedf7e55db3fa24e11924b727"
+                "reference": "0dd9da817c1faa33429fe56b8ba059fdabe6e0fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rinvex/countries/zipball/4696d23976e27d6cedf7e55db3fa24e11924b727",
-                "reference": "4696d23976e27d6cedf7e55db3fa24e11924b727",
+                "url": "https://api.github.com/repos/rinvex/countries/zipball/0dd9da817c1faa33429fe56b8ba059fdabe6e0fe",
+                "reference": "0dd9da817c1faa33429fe56b8ba059fdabe6e0fe",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.4.0 || ^8.0.0"
+                "php": "^7.2.0"
             },
             "require-dev": {
-                "codedungeon/phpunit-result-printer": "^0.30.0",
-                "phpunit/phpunit": "^9.5.0"
+                "codedungeon/phpunit-result-printer": "^0.26.0",
+                "laravel/helpers": "^1.1.0",
+                "phpunit/phpunit": "^8.3.0"
             },
             "type": "library",
             "extra": {
@@ -2121,7 +2122,7 @@
                 "issues": "https://github.com/rinvex/countries/issues",
                 "source": "https://github.com/rinvex/countries"
             },
-            "time": "2020-12-25T01:36:24+00:00"
+            "time": "2020-03-13T18:04:45+00:00"
         },
         {
             "name": "rudloff/alltube-library",
