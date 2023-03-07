@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aaec48c0bb2310272d9e6b0b4289a0f2",
+    "content-hash": "fdbd7862350d0bd5c4498362dbd8760a",
     "packages": [
         {
             "name": "aura/session",
@@ -3772,7 +3772,7 @@
             "time": "2014-08-20T20:43:34+00:00"
         },
         {
-            "name": "yt-dlp/yt-dlp",
+            "name": "ytdl-patched/ytdl-patched",
             "version": "2023.03.07.1678149860",
             "dist": {
                 "type": "tar",

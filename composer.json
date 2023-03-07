@@ -37,7 +37,7 @@
     "symfony/translation": "^4.0",
     "symfony/yaml": "^4.0",
     "webfontkit/open-sans": "^1.0",
-    "yt-dlp/yt-dlp": "^2023.03",
+    "ytdl-patched/ytdl-patched": "^2023.03.07.1678149860",
     "zonuexe/http-accept-language": "^0.4.1"
   },
   "require-dev": {
@@ -62,7 +62,7 @@
     {
       "type": "package",
       "package": {
-        "name": "yt-dlp/yt-dlp",
+        "name": "ytdl-patched/ytdl-patched",
         "version": "2023.03.07.1678149860",
         "dist": {
           "type": "tar",
