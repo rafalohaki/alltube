@@ -63,10 +63,10 @@
       "type": "package",
       "package": {
         "name": "yt-dlp/yt-dlp",
-        "version": "2023.03.04",
+        "version": "2023.03.07.1678149860",
         "dist": {
           "type": "tar",
-          "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2023.03.04/yt-dlp.tar.gz"
+          "url": "https://github.com/ytdl-patched/ytdl-patched/releases/download/2023.03.07.1678149860/ytdl-patched.tar.gz"
         }
       }
     }
