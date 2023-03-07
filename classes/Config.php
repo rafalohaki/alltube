@@ -24,7 +24,7 @@ class Config
      *
      * @var string
      */
-    public $youtubedl = 'vendor/ytdl-patched/ytdl-patched/yt-dlp/__main__.py';
+    public $youtubedl = 'vendor/ytdl-patched/ytdl-patched/yt_dlp/__main__.py';
 
     /**
      * python binary path.
