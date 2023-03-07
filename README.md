@@ -1,6 +1,6 @@
 # AllTube Download
 
-HTML GUI for  [yt-dlp](https://github.com/yt-dlp/yt-dlp) ([alltubedownload.net](http://alltubedownload.net/))
+HTML GUI for  [ytdl-patched/ytdl-patched](https://github.com/ytdl-patched/ytdl-patched) ([alltubedownload.net](http://alltubedownload.net/))
 
 ## Setup
 
